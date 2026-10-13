@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    display: flex;
+    height: 100vh;
+    background-color: #f5f0f5;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 15px;
+    background-color: #e5d9e5;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+#chat {
+    height: 70%;
+    overflow-y: auto;
+}
+
+.input-box {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    left: 240px;
+    right: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
